@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Стяжка-м.рф - Главная</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="mask"></div>
+	<header class="header">
+		<div class="container">
+			<a class="header__logo" href="M2(logo)">
+				<img src="./img/logo.svg" alt="">
+			</a>
+			<div class="header__contacts">
+				<a class="header__contacts-addres" href="https://goo.gl/maps/hyc37f8PfQYS4Sfq9">
+					<img src="./img/adress.png" alt="Map">
+					Москва
+					Проспект Мира 11
+				</a>
+				<div class="header__contacts-phone">
+					<a href="tel:88453761606">8 (8453) 76-16-06</a>
+					<span>Принимаем заявки круглосуточно</span>
+				</div>
+				<button class="header__contacts-btn prim-btn">
+					Обратный звонок
+				</button>
+			</div>
+			<div class="header__menu">
+				<img class="header__menu-open header__menu-icon active" src="./img/m-open.svg" alt="Menu burger open">
+				<img class="header__menu-close header__menu-icon" src="./img/m-close.svg" alt="Menu burger close">
+			</div>
+		</div>
+		<nav class="header__nav">
+			<a class="header__nav-link" href="#">
+				О нас
+			</a>
+			<a class="header__nav-link" href="#">
+				Наши работы
+			</a>
+			<a class="header__nav-link" href="#">
+				Наши услуги
+			</a>
+			<a class="header__nav-link" href="#">
+				Контакты
+			</a>
+			<a class="header__nav-link" href="#">
+				Отзывы
+			</a>
+		</nav>
+	</header>
+	<section class="benefits g-section">
+		<div class="benefits-wrapper">
+			<div class="benefits__col-info">
+				<h1 class="benefits__title">
+					Стяжка пола<br>
+					по городу и области
+				</h1>
+				<h3 class="benefits__suptitile">
+					Идеально ровный пол без трещин
+					и неровностей с гарантией 10 лет
+					для квартир|
+				</h3>
+				<ul class="benefits__list">
+					<li class="benefits__list-item">
+						<img src="./img/check.svg" alt="">
+						Раствор выравнивается по всему периметру
+					</li>
+					<li class="benefits__list-item">
+						<img src="./img/check.svg" alt="">
+						Раствор выравнивается по всему периметру
+					</li>
+					<li class="benefits__list-item">
+						<img src="./img/check.svg" alt="">
+						Раствор выравнивается по всему периметру
+					</li>
+				</ul>
+				<button class="benefits__btn btn">
+					Рассчитать стоимость
+				</button>
+			</div>
+			<div class="benefits__col-img">
+				<img src="./img/benefits.jpg" alt="Home">
+			</div>
+		</div>
+	</section>
+	<section class="calculation">
+		<div class="container">
+			<div class="calculation__col-info">
+				<h2 class="calculation__title section__title">
+					Рассчитайте стоимость стяжки и получите <span>смету
+						в подарок!</span>
+				</h2>
+				<form class="calculation__form" action="#">
+					<div class="calculation__area">
+						<div class="calculation__area-value">
+							<span>0м²</span>
+						</div>
+						<div class="calculation__area-placeholder">Площадь пола</div>
+						<input class="calculation__area-input" type="range" min="0" max="200" value="0">
+					</div>
+					<div class="calculation__input-body calculation__body-first">
+						<label for="calculationName"></label>
+						<input class="calculation__name calculation__input general__inp calculation__left-input" type="text"
+							placeholder="Имя" id="calculationName">
+					</div>
+					<div class="calculation__input-body calculation__body-first">
+						<label for="calculationLocality"></label>
+						<input class="calculation__locality calculation__input general__inp" type="text"
+							placeholder="Населённый пункт" id="calculationLocality">
+					</div>
+					<div class="calculation__input-body">
+						<label for="calculationTel"></label>
+						<input class="calculation__tel calculation__input general__inp calculation__left-input" type="tel"
+							placeholder="Телефон" id="calculationTel">
+					</div>
+					<div class="calculation__input-body calculation__select-wrapper">
+						<div class="calculation__select">
+							<div class="calculation__select-header">
+								<div class="calculation__select-placeholder">Тип помещения</div>
+								<img class="calculation__select-img" src="./img/select-icon.svg" alt="polygon">
+							</div>
+						</div>
+						<div class="calculation__select-body">
+							<div class="calculation__select-item">val-1</div>
+							<div class="calculation__select-item">val-2</div>
+							<div class="calculation__select-item">val-3</div>
+							<div class="calculation__select-item">val-4</div>
+						</div>
+					</div>
+					<button class="calculation__input-btn btn" type="submit">Получить смету</button>
+				</form>
+
+
+			</div>
+			<div class="calculation__col-img">
+				<img src="./img/calc-img.png" alt="builder in a helmet">
+			</div>
+		</div>
+	</section>
+	<section class="works g-section">
+		<div class="section__container">
+			<h2 class="works__title section__title">
+				Наши <span>работы</span>
+			</h2>
+			<div class="works__slider">
+				<div class="slider__item"><img src="./img/work-1.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-2.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-3.jpg" alt="Dark Room"></div>
+				<div class="slider__item"><img src="./img/work-1.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-2.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-3.jpg" alt="Dark Room"></div>
+				<div class="slider__item"><img src="./img/work-1.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-2.jpg" alt="Light Room"></div>
+				<div class="slider__item"><img src="./img/work-3.jpg" alt="Dark Room"></div>
+		</div>
+	</section>
+	<section class="advantages g-section">
+		<div class="section__container">
+			<div class="advantages__col-info">
+				<div class="advantages__card">
+					<h2 class="advantages__card-title">
+						+ 800
+					</h2>
+					<h3 class="advantages__card-suptitle">Выполненых работ</h3>
+					<p class="advantages__text">
+						Обратитесь к нам, мы уверены в качестве!
+					</p>
+				</div>
+				<div class="advantages__card">
+					<h2 class="advantages__card-title">
+						12
+					</h2>
+					<h3 class="advantages__card-suptitle">Выполненых работ</h3>
+					<p class="advantages__text">
+						Обратитесь к нам, мы уверены в качестве!
+					</p>
+				</div>
+				<div class="advantages__card">
+					<h2 class="advantages__card-title">
+						54
+					</h2>
+					<h3 class="advantages__card-suptitle">Выполненых работ</h3>
+					<p class="advantages__text">
+						Обратитесь к нам, мы уверены в качестве!
+					</p>
+				</div>
+				<div class="advantages__card">
+					<h2 class="advantages__card-title">
+						142
+					</h2>
+					<h3 class="advantages__card-suptitle">Выполненых работ</h3>
+					<p class="advantages__text">
+						Обратитесь к нам, мы уверены в качестве!
+					</p>
+				</div>
+			</div>
+			<div class="advantages__col-img">
+				<img src="./img/advantages.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="section__container">
+			<div class="footer__links">
+				<div class="footer__links-block">
+					<a class="footer__logo" href="#">
+						<img src="./img/logo.svg" alt="м² Стяжка-м.рф">
+					</a>
+					<nav class="footer__nav">
+						<a class="footer__nav-link" href="#">О нас</a>
+						<a class="footer__nav-link" href="#">Наши работы</a>
+						<a class="footer__nav-link" href="#">Наши услуги</a>
+						<a class="footer__nav-link" href="#">Контакты</a>
+						<a class="footer__nav-link" href="#">Отзывы</a>
+					</nav>
+				</div>
+				<div class="footer__links-block">
+					<h4 class="footer__links-title">
+						Контакты
+					</h4>
+					<a class="footer__contact-link footer__link" href="tel:88453761606">
+						<img src="./img/tel.svg" alt="Phone icon">
+						8 (8453) 76-16-06
+					</a>
+					<a class="footer__contact-link footer__link" href="mailto:styajka@mail.ru">
+						<img src="./img/mail.svg" alt="Mail">
+						styajka@mail.ru
+					</a>
+					<a class="footer__contact-link footer__link" href="https://goo.gl/maps/hyc37f8PfQYS4Sfq9">
+						<img src="./img/mark.svg" alt="Map mark">
+						Москва<br>
+						Проспект Мира 11
+					</a>
+				</div>
+				<div class="footer__links-block footer__socials-block">
+					<h4 class="footer__links-title">Соцсети</h4>
+					<a class="footer__link" href="#">
+						<img src="./img/inst.svg" alt="instagram icon">
+					</a>
+					<a class="footer__link" href="#">
+						<img src="./img/vk.svg" alt="vk icon">
+					</a>
+					<a class="footer__link" href="#">
+						<img src="./img/telegram.svg" alt="telegram icon">
+					</a>
+				</div>
+				<div class="footer__links-block">
+					<h4 class="footer__links-title">
+						Напишите нам
+					</h4>
+					<form class="footer__form" action="#">
+						<div class="footer__inp-block">
+							<label for="fName"></label>
+							<input class="footer__input general__inp footer__link" type="text" placeholder="Имя" id="fName">
+						</div>
+						<div class="footer__inp-block">
+							<label for="fEmail"></label>
+							<input class="footer__input general__inp footer__link" type="email" placeholder="E-mail"
+								id="fEmail">
+						</div>
+						<div class="footer__inp-block">
+							<label for="fText"></label>
+							<textarea class="footer__textarea general__inp footer__link" id="fText"
+								placeholder="Сообщение"></textarea>
+						</div>
+						<button class="footer__btn prim-btn" type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__bottom-text">© 2022</p>
+				<div class="footer__copy">
+					<a href="#" class="footer__bottom-text">
+						Политика конфиденциальности
+					</a>
+					<a href="#" class="footer__bottom-text">
+						Карта сайта
+					</a>
+					<a href="#" class="footer__bottom-text">
+						Cookie
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
